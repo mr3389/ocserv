@@ -9,7 +9,25 @@ c. 执行第二个脚本 只创建客户证书
 auth = "certificate"
 cert-user-oid = 2.5.4.3
 mtu = 1480
+删除欢迎代码 banner = "welcome doubi"
+
 2.
 先把 /etc/ocserv/ssl  下面的证书  复制到  /etc/ocserv/CAforOC
-bash testssl.sh gc
+ cp -r   /etc/ocserv/CAforOC /etc/ocserv/ssl
+ 或者执行 mv /etc/ocserv/ssl /etc/ocserv/CAforOC
+执行
+wget https://raw.githubusercontent.com/mr3389/ocserv/main/testssl.sh && chmod +x testssl.sh && bash testssl.sh gc
 
+------------------------------------------
+/etc/init.d/ocserv start
+# 启动 ocserv
+/etc/init.d/ocserv stop
+# 停止 ocserv
+/etc/init.d/ocserv restart
+# 重启 ocserv
+/etc/init.d/ocserv status
+# 查看 ocserv 运行状态
+/etc/init.d/ocserv log
+# 查看 ocserv 运行日志
+/etc/init.d/ocserv test
+# 测试 ocserv 配置文件是否正确
