@@ -10,8 +10,7 @@ auth = "certificate"
 cert-user-oid = 2.5.4.3  
 mtu = 1480  
 删除欢迎代码 banner = "welcome doubi"  
-
-2.  
+2.   
 先把 /etc/ocserv/ssl  下面的证书  复制到  /etc/ocserv/CAforOC  
 cp -r  /etc/ocserv/ssl  /etc/ocserv/CAforOC  
  或者执行 mv /etc/ocserv/ssl /etc/ocserv/CAforOC  
