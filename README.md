@@ -19,15 +19,16 @@ mtu = 1480
 wget https://raw.githubusercontent.com/mr3389/ocserv/main/testssl.sh && chmod +x testssl.sh && bash testssl.sh gc
 
 ------------------------------------------
+启动
 /etc/init.d/ocserv start
-# 启动 ocserv
+停止
 /etc/init.d/ocserv stop
-# 停止 ocserv
+重启
 /etc/init.d/ocserv restart
-# 重启 ocserv
+查看运行状态
 /etc/init.d/ocserv status
-# 查看 ocserv 运行状态
+查看日志
 /etc/init.d/ocserv log
-# 查看 ocserv 运行日志
+测试配置文件
 /etc/init.d/ocserv test
-# 测试 ocserv 配置文件是否正确
+
