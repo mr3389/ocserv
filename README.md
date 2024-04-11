@@ -17,16 +17,14 @@ cp -r  /etc/ocserv/ssl  /etc/ocserv/CAforOC
 wget https://raw.githubusercontent.com/mr3389/ocserv/main/testssl.sh && chmod +x testssl.sh && bash testssl.sh gc
 
 ----------------------------
-启动
-/etc/init.d/ocserv start
-停止
-/etc/init.d/ocserv stop
-重启
-/etc/init.d/ocserv restart
-查看运行状态
-/etc/init.d/ocserv status
-查看日志
-/etc/init.d/ocserv log
-测试配置文件
-/etc/init.d/ocserv test
+启动  
+/etc/init.d/ocserv start  
+停止  
+/etc/init.d/ocserv stop  
+重启  
+/etc/init.d/ocserv restart  
+查看运行状态  
+/etc/init.d/ocserv status  
+查看日志  
+/etc/init.d/ocserv log  
 
