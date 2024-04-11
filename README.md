@@ -13,11 +13,10 @@ mtu = 1480
 
 2.
 先把 /etc/ocserv/ssl  下面的证书  复制到  /etc/ocserv/CAforOC
- cp -r   /etc/ocserv/CAforOC /etc/ocserv/ssl
+cp -r  /etc/ocserv/ssl  /etc/ocserv/CAforOC
  或者执行 mv /etc/ocserv/ssl /etc/ocserv/CAforOC
 执行
 wget https://raw.githubusercontent.com/mr3389/ocserv/main/testssl.sh && chmod +x testssl.sh && bash testssl.sh gc
-
 ------------------------------------------
 启动
 /etc/init.d/ocserv start
