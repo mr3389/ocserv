@@ -1,4 +1,5 @@
 ----版本Ubuntu 20.04 ----
+
 a. 更新系统： (用不用都可以)  
   apt-get update && apt-get upgrade -y  
 b. 执行一键脚本  按 1 安装  
