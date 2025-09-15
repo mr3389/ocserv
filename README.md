@@ -1,4 +1,4 @@
-----版本Ubuntu 20.04 ----
+----版本Ubuntu 20.04 ----！！其他版本会有小问题！！
 
 a. 更新系统： (用不用都可以)  
   apt-get update && apt-get upgrade -y  
