@@ -18,6 +18,7 @@ cp -r  /etc/ocserv/ssl  /etc/ocserv/CAforOC
 执行以下脚本生成证书:  
 wget https://raw.githubusercontent.com/mr3389/ocserv/main/testssl.sh && chmod +x testssl.sh && bash testssl.sh gc
 
+certmgr.msc 删除多余的证书
 ----------------------------
 启动  
 /etc/init.d/ocserv start  
