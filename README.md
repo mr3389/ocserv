@@ -11,7 +11,7 @@ wget https://raw.githubusercontent.com/mr3389/ocserv/main/testssl.sh && chmod +x
 
 
 如果你之前有安装其它证书最好开始->运行-> certmgr.msc 删除多余的证书
-----------------------------
+
 启动  
 /etc/init.d/ocserv start  
 停止  
