@@ -8,7 +8,7 @@ c. 证书登陆步骤:  直接cd /etc/ocserv  下载配置文件
 配置文件 10.10.0.0
 wget -N --no-check-certificate https://raw.githubusercontent.com/mr3389/ocserv/refs/heads/main/ocserv.conf
 
-2. 执行 mv /etc/ocserv/ssl /etc/ocserv/CAforOC  
+2. 执行 cp -r /etc/ocserv/ssl /etc/ocserv/CAforOC  
 执行以下脚本生成证书:  
 wget https://raw.githubusercontent.com/mr3389/ocserv/main/testssl.sh && chmod +x testssl.sh && bash testssl.sh gc
 
