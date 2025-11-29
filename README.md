@@ -6,6 +6,7 @@ b. 执行一键脚本  按 1 安装
 wget -N --no-check-certificate https://raw.githubusercontent.com/mr3389/ocserv/main/ocserv.sh && chmod +x ocserv.sh && bash ocserv.sh  
 c. 证书登陆步骤:  直接cd /etc/ocserv  下载配置文件
 配置文件 10.10.0.0
+
 wget -N --no-check-certificate https://raw.githubusercontent.com/mr3389/ocserv/refs/heads/main/ocserv.conf
 
 2. 执行 cp -r /etc/ocserv/ssl /etc/ocserv/CAforOC  
